@@ -1,0 +1,102 @@
+h1
+	{
+		font-family:garamond;
+		color:#333333;
+	}
+h2
+	{
+		font-family:garamond;
+		color:#333333;
+	}
+h3
+	{
+		font-family:garamond;
+		color:#333333;
+	}
+body	
+	{
+		background-color:#feffff;
+	}
+
+p
+	{
+		font-family:garamond;
+		color:#333333;
+		text-align:left;
+	}
+ul
+	{
+		font-family:garamond;
+		color:#333333;
+		text-align:left;
+		font-size:20px;
+	}
+img	
+	{
+		align:center;
+	}
+.separate
+	{
+		border-left: solid 1px #a6a6a6;
+		border-right: transparent;
+		border-bottom: transparent;
+		border-top: transparent;
+	}
+
+#bannerimg
+	{
+		border: 0px;
+	}
+#footer
+	{
+		border-left: transparent;
+		border-right: transparent;
+		border-bottom: transparent;
+		border-top:  solid 1px #a6a6a6;
+	}
+
+/*Menu Unordered List*/
+.horizontalcssmenu ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+/*Menu List items*/
+
+.horizontalcssmenu ul li
+	{
+		position: relative;
+		display: inline;
+		float:left;
+	}
+
+/*Menu link items style*/
+
+.horizontalcssmenu ul li a
+	{
+		display: block;
+		width: 124px; /*Width of top level menu link items*/
+		padding: 2px 13.29px;
+		border-left-width: 0;
+		text-decoration: none;
+		color:#333333 ;
+		font: 17px garamond;
+		text-align:center;
+	}
+	
+
+.horizontalcssmenu ul li a:hover
+{
+	border:solid .5px #333333;
+}
+
+* html p#iepara{ /*For a paragraph (if any) that immediately follows menu, add 1em top spacing between the two in IE*/
+padding-top: 1em;
+}
+	
+/* Holly Hack for IE \*/
+* html .horizontalcssmenu ul li { float: left; height: 1%; }
+* html .horizontalcssmenu ul li a { height: 1%; }
+/* End */
